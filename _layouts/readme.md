@@ -1,0 +1,26 @@
+# Jekyll layout
+markdown layout styling i.e.
+
+**default.html**
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <header>
+    <!-- zepto -->
+    <script src="/libraries/js/core/zepto.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/libraries/css/core/bootstrap.min.css">
+    <script src="/libraries/js/core/bootstrap.bundle.min.js"></script>
+    </header>
+  <body>
+    <div class="container">
+    {{ content }}
+    </div>
+  </body>
+</html>
+```

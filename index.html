@@ -5,39 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aim's Paper</title>
-    <link rel="icon" type="image/x-icon" href="/paper/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <header>
-<!-- zepto 1.2.0     -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js" integrity="sha512-BrvVYNhKh6yST24E5DY/LopLO5d+8KYmIXyrpBIJ2PK+CyyJw/cLSG/BfJomWLC1IblNrmiJWGlrGueKLd/Ekw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
-<!-- Bootstrap 5.2.0 -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- zepto -->
+<script src="/libraries/js/core/zepto.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+<!-- Bootstrap -->
+<link rel="stylesheet" href="/libraries/css/core/bootstrap.min.css">
+<script src="/libraries/js/core/bootstrap.bundle.min.js"></script>
 </header>
 
 <body>
+    <!-- add mudules here -->
     <!-- <div data-include="header"></div> -->
     <div data-include="hero"></div>
-    <div data-include="table"></div>    
+    <!-- <div data-include="table"></div>     -->
 </body>
 
 <footer>
 <script>
+// Zepto must be loaded from header to executed footer scripts
 $(function() {
-    // load components using Zepto
-    // Zepto must be loaded from this header
+    console.log( "Doc ready" );
+    // Loaded 1st components using Zepto
     let includes = $('[data-include]')
     $.each(includes, function () {
-        let filePaths = `index/${$(this).data('include')}.html`
+        let modulesPath = `modules/${$(this).data('include')}.html`
         
         // If no CSS selector is given, the complete response text is used instead.
         // Note that any JavaScript blocks found are only executed in case no selector is given.
-        $(this).load(`${filePaths}`)
+        $(this).load(`${modulesPath}`)
+        console.log( "Modules loaded" );
     })
-    console.log( "Doc Ready!!" );
-    // execute other js components
+    
+    // execute other js if any
 });
 
 </script>
 </footer>
+
 </html>

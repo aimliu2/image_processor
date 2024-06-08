@@ -1,4 +1,11 @@
-name: Aim's Page
+# CI/ CD on github page
+# Render markdown using Kramdown
+# Also render html block
+name: Github Page
+basewebsite: /
 markdown: kramdown
 kramdown:
   parse_block_html: true
+
+# theme: minima
+
