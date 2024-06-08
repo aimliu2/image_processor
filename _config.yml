@@ -3,8 +3,8 @@
 name: Github Page
 description: Simplest Github Page using markdown and html module blocks
 
-# base website = repository name
-basewebsite: /site/
+# baseurl = repository name
+baseurl: /site
 
 # Render markdown using Kramdown
 # and also render html block

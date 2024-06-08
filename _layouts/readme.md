@@ -12,10 +12,10 @@ markdown layout styling i.e.
   </head>
   <header>
     <!-- zepto -->
-    <script src="/libraries/js/core/zepto.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    <script src="{{ site.baseurl }}/libraries/js/core/zepto.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="/libraries/css/core/bootstrap.min.css">
-    <script src="/libraries/js/core/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="{{ site.baseurl }}/libraries/css/core/bootstrap.min.css">
+    <script src="{{ site.baseurl }}/libraries/js/core/bootstrap.bundle.min.js"></script>
     </header>
   <body>
     <div class="container">
@@ -24,3 +24,6 @@ markdown layout styling i.e.
   </body>
 </html>
 ```
+
+## Do
+- `use {{ site.baseurl }}/ and {{ site.url }}/`
