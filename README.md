@@ -34,6 +34,9 @@ Static Modular HTML pages rendered using;
 - start ruby server using `bundle exec jekyll serve`
 - view page on `http://localhost:4000`
 
+# Quick start on Github
+- [Setup Github Page](https://docs.github.com/en/pages/quickstart)
+
 ## See also
 - [Jekyll Pre-requisite](https://jekyllrb.com/docs/installation/)
 - [Jekyll Installation](https://jekyllrb.com/docs/)
@@ -42,3 +45,4 @@ Static Modular HTML pages rendered using;
 
 
 ## Visit an example on 
+[https://aimliu2.github.io/site/](https://aimliu2.github.io/site/)

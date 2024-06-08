@@ -1,8 +1,13 @@
 # CI/ CD on github page
-# Render markdown using Kramdown
-# Also render html block
+
 name: Github Page
-basewebsite: /
+description: Simplest Github Page using markdown and html module blocks
+
+# base website = repository name
+basewebsite: /site/
+
+# Render markdown using Kramdown
+# and also render html block
 markdown: kramdown
 kramdown:
   parse_block_html: true
