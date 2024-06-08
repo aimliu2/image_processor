@@ -33,6 +33,7 @@ Static Modular HTML pages rendered using;
 - clone this repository into local machine i.e. Make sure you got the same structure as boilerplate
 - start ruby server using `bundle exec jekyll serve`
 - view page on `http://localhost:4000`
+- try rebuild Gemfile and Gemfile.lock with `jekyll new _path_` if files on the repositories can't run
 
 # Quick start on Github
 - [Setup Github Page](https://docs.github.com/en/pages/quickstart)
