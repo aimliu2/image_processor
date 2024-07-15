@@ -1,10 +1,10 @@
 # CI/ CD on github page
 
-name: Github Page
-description: Simplest Github Page using markdown and html module blocks
+name: Simple Image Processor
+description: Simplest Image Processor
 
 # baseurl = repository name
-baseurl: /site
+baseurl: /image_processor
 
 # Render markdown using Kramdown
 # and also render html block

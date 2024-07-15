@@ -1,4 +1,5 @@
 # module js
+ES 6 module following standard coding as following
 
 ```js
 // foo.mjs:

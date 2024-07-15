@@ -5,6 +5,8 @@ HTML modules using the following structure
 
 ```html
 <!-- template -->
+<!-- template -->
+<template>
 <section class="bsb-hero-2 px-3">
 <div class="container overflow-hidden">
 <div class="row gy-3 gy-lg-0 align-items-lg-center justify-content-lg-between">
@@ -14,6 +16,7 @@ HTML modules using the following structure
 </div>
 </div>
 </section>
+</template>
 
 <!-- script -->
 <script>
@@ -22,4 +25,7 @@ HTML modules using the following structure
   foot.innerHTML = getMessage("this is footer")
   console.log('mjs loaded and execute from footer.html')
 </script>
+
+<!-- style -->
+<style></style>
 ```
