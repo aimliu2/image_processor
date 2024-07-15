@@ -1,0 +1,2 @@
+# Simple image processor
+- resize

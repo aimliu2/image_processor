@@ -1,0 +1,13 @@
+---
+layout: default
+title: Index
+---
+
+<!-- load order depends on modules' order -->
+<div data-include="hero"></div>
+<div data-include="footer"></div>
+
+<script type="module" >
+    import {ready, main} from "./libraries/mjs/core/app.mjs"
+    ready(main)
+</script>

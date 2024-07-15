@@ -1,0 +1,16 @@
+# CI/ CD on github page
+
+name: Github Page
+description: Simplest Github Page using markdown and html module blocks
+
+# baseurl = repository name
+baseurl: /site
+
+# Render markdown using Kramdown
+# and also render html block
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+
+# theme: minima
+
