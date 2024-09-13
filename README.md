@@ -1,2 +1,2 @@
-# Simple image processor V1.1
+# Simple image processor
 - resize

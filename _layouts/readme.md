@@ -1,6 +1,6 @@
 # Jekyll layout
 - markdown layout styling
-- use as a <header> loader
+- use as a <head> loader
 
 **default.html**
 
